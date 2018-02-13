@@ -1,0 +1,158 @@
+
+.sub-page-search-bar{
+    padding: 25px 0;
+    position: relative;
+    border-bottom: 1px solid #E1E1E1;
+}
+.title-hint{
+    padding-left: 15px;
+    border-left: 3px solid #0072E5;
+    font-size: 16px;
+}
+.title-hint span{
+    color: #999999;
+}
+.sub-search-bar{
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+.sub-search-input{
+    height: 30px;
+    width: 266px;
+    font-size: 13px;
+    padding-left: 30px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+}
+.search-icon{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url("../../img/search.png");
+    position: relative;
+    left: 30px;
+    top: 4px
+}
+.site{
+    padding-left: 15px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.site-hint{
+    color: #999999;
+}
+.cut-btn{
+    color: #0072E5;
+    cursor: pointer;
+}
+.site i{
+    margin: 0 5px;
+}
+
+/*table*/
+.company-list{
+    padding: 15px;
+}
+
+.company-table{
+    width: 100%;
+}
+.company-table tr th{
+    font-size: 12px;
+    color: #999999;
+    padding: 15px 0;
+}
+.company-table tr th:first-child{
+    padding-left: 50px;
+}
+.company-table tr td{
+    padding: 15px 0;
+}
+.company-table tbody tr {
+    border-bottom: 1px solid #E1E1E1;
+}
+.table-head{
+    position: relative;
+    padding-left: 50px;
+}
+.table-head img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+}
+.company-name{
+    font-size: 13px;
+    color: #000000;
+    padding-top: 5px;
+}
+.company-hint{
+    font-size: 12px;
+    color: #999999;
+    padding-top: 5px;
+    margin-bottom: 3px;
+}
+
+/*弹窗选择地址样式*/
+.select-address{
+
+}
+.select-address .address-tab{
+    height: 50px;
+    border-bottom: 1px solid #E1E1E1;;
+}
+.select-address .address-tab li{
+    float: left;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.select-address .address-tab .not-click{
+    cursor: default !important;
+}
+.address-tab-content{
+    padding-top: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+.address-tab-item{
+    display: none;
+}
+.address-tab-item-show{
+    display: block;
+}
+.address-tab-item .address-list li{
+    font-size: 12px;
+    padding: 10px 15px;
+}
+.address-active{
+    color: #0072E5;
+    border-bottom: 1px solid #0072E5;
+}
+.address-list li{
+    cursor: pointer;
+}
+.address-list-active{
+    border-left: 5px solid #0072E5;
+    color: #0072E5;
+}
+
+.page-bar{
+    padding-bottom: 15px;
+    position: relative;
+}
+#pagination{
+    text-align: center;
+    position: relative;
+    /*left: -50px;*/
+}
+.page-bar .export-btn{
+    position: relative;
+    left: 15px;
+    top: 8px;
+    margin-bottom: 10px;
+}

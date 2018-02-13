@@ -1,0 +1,171 @@
+/*registerPhone.css*/
+.top{
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+.logo{
+    position: relative;
+    margin-right: 10px;
+    max-width: 200px;
+    max-height: 30px;
+}
+.go-home{
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 0;
+    font-size: 16px;
+    color: #000000;
+}
+.go-home:active, .go-home:focus{
+    color: #000000;
+}
+.go-home span{
+    margin-right: 5px;
+}
+.go-home i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../../img/icon_1.png");
+    position: relative;
+    top: 3px;
+}
+
+.register-container{
+    background: #FFF;
+}
+.register-bar{
+    width: 390px;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+.register-bar h2{
+    font-size: 18px;
+    text-align: center;
+}
+.register-bar .row{
+    margin: 0;
+    margin-top: 38px;
+    font-size: 13px;
+}
+.register-bar .col-xs-3{
+    padding: 0;
+    font-size: 13px;
+}
+.mui-input-row label{
+    padding: 5px;
+    padding-left: 30px;
+    position: relative;
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+    padding: 0;
+    padding-left: 15px;
+}
+.mui-checkbox input[type=checkbox], .mui-radio input[type=radio]{
+    right: inherit;
+    top: -5px;
+    left: 0
+}
+.mui-checkbox.mui-left input[type=checkbox], .mui-radio.mui-left input[type=radio] {
+    top: 0;
+    right: 0;
+}
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before{
+    font-size: 24px;
+}
+.mui-radio input[type=radio]:checked:before{
+    content: '\e442';
+}
+.label-font{
+    margin-bottom: 5px;
+}
+.col-xs-7{
+    padding: 0;
+}
+.col-xs-5{
+    padding: 0 0 0 15px;
+}
+.qr-btn{
+    border-radius: 0px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+.agreement{
+    font-size: 13px;
+    color: red;
+}
+.blue-button{
+    padding: 0;
+}
+.col-xs-4{
+    padding: 0 10px 0 0;
+}
+.col-xs-4:nth-child(4){
+    padding-right: 0;
+}
+.layui-form-item{
+    margin-bottom: 0;
+}
+.layui-form-item .layui-input-inline{
+    width: 100%;
+}
+.layui-input, .layui-select, .layui-textarea{
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0;
+}
+.layui-form-select dl{
+    top: 52px;
+}
+.gather-bar{
+    font-size: 13px;
+}
+.gather-bar span{
+    font-size: 12px;
+    color: red;
+}
+.preview-head{
+    margin-top: 5px;
+}
+.preview-hint{
+    display: inline-block;
+    padding: 30px;
+    border: 1px solid #E1E1E1;
+    cursor: pointer;
+}
+
+.position{
+    position: relative;
+}
+/*表单验证框错误提示*/
+.check-hint{
+    color: #999999;
+    padding-left: 15px;
+    position: absolute;
+    bottom: -20px;
+}
+.check-error{
+    color: red;
+    padding-left: 15px;
+    font-size: 12px;
+    position: absolute;
+    bottom: -20px;
+}
+
+
+
+.yellow-button{
+    background: #F7C03E;
+    border-color: #F7C03E;
+}
+
+.yellow-button:active,
+.yellow-button:focus .yellow-button:hover {
+    background: #F7C03E !important;
+    border-color: #F7C03E !important;
+}

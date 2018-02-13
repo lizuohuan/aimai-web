@@ -1,0 +1,121 @@
+/* 首页样式 */
+.rel{position:relative;}
+.abs{position: absolute;}
+.ovh{overflow: hidden;}
+.block{display: block;}
+.fixed{position: fixed;}
+a{color:#333;}
+
+/* 关于我们 栏目 */
+.aboutUs{
+	font-size: 14px;
+}
+.menu{
+	float:left;
+	width:260px;
+	font-size: 16px;
+	background: #FFF;
+}
+.menu li a{
+	display: block;
+	line-height: 50px;
+	padding-left: 25px;
+	position: relative;
+}
+.menu li a:after{
+	content: "";
+	position:absolute;
+	left: 0;right: 0;
+	bottom:-0.5px;
+	border-bottom:1px solid #e5e5e5;
+	z-index:9;
+}
+.menu li a:hover,.menu li a.act{
+	background: #0072e5;
+	color:#fff;
+}
+.menu li a:hover:after,.menu li a.act:after{
+	/*border-color: #0072E5;*/
+}
+.content{
+	float: right;
+	width: 920px;
+}
+.shadow{
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.content>.shadow{
+	padding:35px;
+	margin-bottom: 20px;
+	background: #fff;
+}
+.upper{text-transform: uppercase;}
+.aboutTitle{
+	font-size: 36px;
+	color:#0072E5;
+}
+.aboutTitle small{
+	color:#C2C2C2;
+	margin-left:15px;
+	font-size:24px;
+}
+.contactUl li>span img{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 8px;
+}
+.contactUl li{
+	font-size: 16px;
+	margin-bottom: 6px;
+}
+.contactUl li:last-child{margin-bottom:0;}
+.contactUl li:hover{
+	color:#0072E5;
+}
+/* 意见反馈 suggest */
+.suggest{
+	margin-top:30px;
+}
+.suggest>div{
+	float: left;
+}
+.suggest .skey{
+	margin-right:45px;
+	font-size: 14px;
+}
+.suggest .rightBox{
+    width: 775px;
+}
+.suggest textarea{
+	min-width: 400px;
+	min-height: 170px;
+	max-width: 600px;
+	max-height: 600px;
+	font-size: 13px;
+	border: 1px solid #E1E1E1;
+	padding: 15px;
+	resize: both;
+}
+.suggest .blue-button{
+	display: inline-block;
+	width: 100px;
+	margin-top: 10px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+}
+/* 资质荣誉 */
+.honor li{
+	float:left;
+	width:23%;
+    margin: 0 1% 2%;
+	text-align:center;
+}
+.honor li img{
+	width: 100%;
+	vertical-align: middle;
+}
+.honor li p{
+	padding-top: 10px;
+}
+.honor .aboutTitle{margin-bottom: 55px;}

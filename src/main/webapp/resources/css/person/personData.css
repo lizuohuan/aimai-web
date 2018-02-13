@@ -1,0 +1,29 @@
+
+.user-info{
+    padding: 15px;
+}
+.layui-form-item .layui-input-inline{
+    width: 300px;
+}
+.layui-form-item .layui-input-address{
+    width: 200px;
+}
+
+.head-div{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-size: cover !important;
+    background-position: center !important;
+    line-height: 125px;
+    cursor: pointer;
+    position: relative;
+}
+.head-shade{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+}

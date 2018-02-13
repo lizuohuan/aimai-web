@@ -1,0 +1,300 @@
+
+.sub-page-search-bar{
+    padding: 25px 0;
+    position: relative;
+    border-bottom: 1px solid #E1E1E1;
+}
+.title-hint{
+    padding-left: 15px;
+    border-left: 3px solid #0072E5;
+    font-size: 16px;
+}
+.title-hint span{
+    color: #999999;
+}
+.sub-search-bar{
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+.sub-search-input{
+    height: 30px;
+    width: 266px;
+    font-size: 13px;
+    padding-left: 30px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+}
+.search-icon{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url("../../img/search.png");
+    position: relative;
+    left: 30px;
+    top: 4px
+}
+.add-user{
+    padding: 3px 10px;
+    background: #F8AE3B;
+    border-radius: 4px;
+    color: #FFF !important;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+/*table*/
+.company-list{
+    padding: 15px;
+}
+
+.company-table{
+    width: 100%;
+}
+.company-table tr th{
+    font-size: 12px;
+    color: #999999;
+    padding: 15px 0;
+}
+.company-table tr th:first-child{
+    padding-left: 50px;
+}
+.company-table tr td{
+    padding: 15px 0;
+}
+.company-table tbody tr {
+    border-bottom: 1px solid #E1E1E1;
+}
+.company-table tbody tr:hover{
+    background: rgba(238, 238, 238, 0.35);
+    transition: all 0.5s;
+}
+
+.table-head{
+    position: relative;
+    padding-left: 50px;
+}
+.table-head .user-head{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.company-name{
+    font-size: 13px;
+    color: #000000;
+    padding-top: 5px;
+}
+.company-hint{
+    font-size: 12px;
+    color: #999999;
+    padding-top: 5px;
+    margin-bottom: 3px;
+}
+.course-name{
+    color: #0072E5;
+    cursor: pointer;
+}
+.course-name-not{
+    color: black;
+}
+.orange-badge{
+    padding: 3px 10px;
+    background: #F8AE3B;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 12px;
+}
+.time-bar{
+    padding-top: 10px;
+    color: #999999;
+}
+.company-table .num{
+    display: inline-block;
+    font-size: 20px;
+    color: #0072E5;
+    margin-bottom: 5px;
+}
+.center{
+    text-align: center;
+}
+
+.page-bar{
+    padding-bottom: 15px;
+    position: relative;
+}
+#pagination{
+    text-align: center;
+    position: relative;
+    /*left: -50px;*/
+}
+.page-bar .export-btn{
+    position: relative;
+    left: 15px;
+    top: 8px;
+    margin-bottom: 10px;
+}
+.min-blue-border-button{
+    margin-left: 10px;
+}
+.allotModal{
+    width: 450px;
+    min-width: 450px;
+}
+.allotModal .modal-context{
+    padding: 0;
+}
+.course-item{
+    position: relative;
+    padding: 15px;
+}
+.course-item .col-xs-11{
+    padding-left: 144px;
+    margin-bottom: 20px;
+}
+.course-item:after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 50px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #E1E1E1;
+}
+.course-item:last-child:after{
+    height: 0;
+}
+
+.course-checkbox{
+    position: relative !important;
+    top: 34px !important;
+}
+.course-item .course-cover{
+    width: 134px;
+    height: 100px;
+    background-size: cover !important;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.course-item .course-title{
+    font-size: 16px;
+    padding: 10px 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.course-item .course-label{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.course-label span{
+    font-size: 12px;
+    color: #999999;
+    margin-right: 5px;
+}
+.course-time-bar .time-div{
+    float: left;
+    width: 110px;
+}
+.course-time-bar .icon-study{
+    display: inline-block;
+    width: 19px;
+    height: 21px;
+    background: url("../../img/video-gray.png");
+    position: relative;
+    top: 5px;
+}
+.icon-font{
+    color: #999999;
+}
+.icon-font span{
+    color: #0072E5;
+    margin: 0 5px;
+}
+.time-div:last-child{
+    position: relative;
+    top: 10px;
+}
+
+.addUserModal{
+    min-width: 900px;
+    width: 900px;
+}
+.addUserModal .modal-context{
+    height: 600px;
+    overflow: auto;
+}
+.addUserModal .sub-search-bar{
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    top: 12px;
+}
+
+.downloadTemplate{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #0072E5;
+    z-index: 99;
+}
+
+/*自定义单选框、多选框*/
+.my-radio, .my-checkbox{
+    margin: 0 !important;
+    display: inline-block;
+    border: 0;
+    outline: 0!important;
+    background-color: transparent;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 24px;
+    color: #0072E5;
+    margin-right: 10px !important;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+}
+.my-radio:before, .my-checkbox:before{
+    content: "\f1db";
+}
+.my-radio:checked:before, .my-checkbox:checked:before{
+    content: "\f058";
+    color: #0072E5;
+}
+
+
+.head-div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+}
+
+.delete-btn{
+    
+}
+
+.checkAll{
+    margin-left: 15px;
+    position: relative;
+    top: 5px;
+}
+.checkAll input{
+    position: relative;
+    top: 3px;
+}

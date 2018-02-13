@@ -1,0 +1,122 @@
+/*login.css*/
+.top{
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+.logo{
+    position: relative;
+    top: -5px;
+    margin-right: 10px;
+    max-width: 200px;
+    max-height: 30px;
+}
+.name{
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 24px;
+}
+.login-bar{
+    position: relative;
+    height: 500px;
+    background: url("../../img/login-banner.png") no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.login-container{
+    position: relative;
+}
+.login-bg{
+    float: left;
+    width: 750px;
+    height: 500px;
+    /*background: url("../../img/login-banner.png") no-repeat;
+    background-size: cover !important;
+    background-position: center !important;*/
+}
+.login-div{
+    background: #FFF;
+    height: 500px;
+    width: 450px;
+    float: left;
+    position: relative;
+    padding: 25px;
+}
+.login-div h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.error-bar{
+    height: 30px;
+    margin-bottom: 10px;
+}
+.error-hint{
+    padding: 6px 10px;
+    font-size: 12px;
+    background: #F2F2F2;
+    border: 1px solid #ffb4a8;
+    overflow: hidden;
+    color: #6C6C6C;
+    display: none;
+}
+.error-hint span{
+    position: relative;
+    top: -2px;
+}
+.error-hint i{
+    color: #ff7f13;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.input-group{
+    width: 100%;
+    height: 58px;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.input-group label{
+    width: 20%;
+    height: 100%;
+    line-height: 54px;
+    display: inline-block;
+    font-size: 14px;
+}
+.login-input{
+    height: 56px;
+    font-size: 14px;
+    width: 78%;
+    line-height: 54px;
+    padding-left: 10px;
+}
+.forget-password{
+    text-align: right;
+}
+.forget-password a{
+    color: #999999;
+    font-size: 12px;
+}
+.button-bar{
+    margin-top: 15px;
+}
+
+.code-group{
+    position: relative;
+
+}
+.qr-btn{
+    border-radius: 0px;
+    height: 58px;
+    line-height: 58px;
+    padding: 0 20px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: auto;
+    font-size: 14px;
+}
+

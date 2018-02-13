@@ -1,0 +1,116 @@
+
+/*table*/
+.table-list{
+    padding: 15px;
+}
+
+.my-table{
+    width: 100%;
+}
+.my-table tr th{
+    font-size: 12px;
+    color: #999999;
+    padding: 15px 0;
+    text-align: center;
+}
+.my-table tr th:first-child{
+    text-align: left;
+}
+.my-table tr td{
+    padding: 15px 0;
+    text-align: center;
+}
+.my-table tbody tr {
+    border-bottom: 1px solid #E1E1E1;
+}
+.money{
+    font-size: 16px;
+    color: red;
+}
+.num{
+    font-size: 12px;
+    color: #999999;
+}
+.not-payment{
+    font-size: 12px;
+    color: #0072E5;
+}
+.payment{
+    font-size: 12px;
+    color: #999999;
+}
+.course{
+    position: relative;
+    padding-left: 150px;
+    height: 100px;
+    text-align: left;
+}
+.course-cover{
+    background-size: cover !important;
+    background-position: center !important;
+    width: 135px;
+    height: 100px;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+.course-title{
+    padding-top: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.course-label span{
+    font-size: 12px;
+    color: #999999;
+    margin-right: 15px;
+}
+.info-btn{
+    margin-bottom: 10px;
+}
+
+
+
+/*支付方式*/
+.text-align-center{
+    text-align: center;
+}
+.wechat-icon{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: url("../../img/pay/wechat.png");
+    cursor: pointer;
+}
+.alipay-icon{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: url("../../img/pay/alipay.png");
+    cursor: pointer;
+}
+.payment-font{
+    font-size: 14px;
+    padding-top: 15px;
+}
+#payModal .modal-context{
+    padding: 50px 0;
+}
+.qrcode{
+    margin: 0 auto;
+}
+.qrcode img{
+    margin: 0 auto;
+}
+.qrcode-hint{
+    font-size: 12px;
+    color: #000000;
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}

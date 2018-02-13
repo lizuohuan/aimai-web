@@ -1,0 +1,231 @@
+.company-bg{
+    height: 290px;
+    background: url("../../img/comnpany_bg.png");
+    width: 100%;
+    position: relative;
+}
+.head-bar{
+    padding-top: 36px;
+    padding-left: 60px;
+}
+.head-bar div{
+    padding-left: 130px;
+    position: relative;
+}
+.head-bar div img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+}
+.company-name{
+    font-size: 26px;
+    color: #FFF;
+    padding: 20px 5px;
+}
+.company-hint{
+    font-size: 16px;
+    color: #FFF;
+    padding-left: 5px;
+}
+.place-number{
+    padding-top: 82px;
+}
+.number-font{
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+    margin-bottom: 5px;
+}
+.place-number .col-xs-4:nth-child(1){
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.place-number .col-xs-4:nth-child(2){
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.tab-cut{
+    width: 260px;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+}
+.tab-cut .col-xs-6{
+    padding: 15px 0;
+    padding-bottom: 0;
+    position: relative;
+    cursor: pointer;
+}
+.tab-cut .tab-title{
+    display: inline-block;
+    padding-bottom: 15px;
+}
+.border-right{
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    background: #E1E1E1;
+    left: 0;
+    position: absolute;
+}
+
+.company-active{
+    border-bottom: 4px solid #0072E5;
+    color: #0072E5;
+}
+
+.content{
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background: #FFF;
+}
+.company-info{
+    font-size: 13px;
+    padding: 15px 0;
+}
+.company-info .col-xs-1{
+    text-align: right;
+    padding-right: 15px;
+}
+
+#courseInfo {
+    display: none;
+}
+.course-list{
+    margin-bottom: 15px;
+}
+.course-cover{
+    border-radius: 10px;
+    height: 190px;
+    width: 292px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.course-info{
+    padding-left: 15px;
+}
+.course-title-bar{
+    margin: 10px 0;
+}
+.course-title{
+    font-size: 20px;
+    color: #000000;
+}
+
+.icon-video{
+    display: inline-block;
+    width: 19px;
+    height: 21px;
+    background: url("../../img/video.png");
+    position: relative;
+    top: 3px
+}
+.icon-time{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../img/time.png");
+    position: relative;
+    top: 3px
+}
+.icon-font{
+    font-size: 14px;
+    color: #999999;
+}
+
+/*tab切换*/
+.course-tab{
+    position: relative;
+}
+.course-tab-title{
+    position: relative;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    height: 40px;
+}
+.course-tab-title li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    text-align: center;
+    width: 120px;
+    position: relative;
+    z-index: 9;
+    cursor: pointer;
+}
+.course-tab-content{
+    border-radius: 0 4px 4px 4px;
+    background: #F0F7FD;
+    border: 1px solid #0072E5;
+    padding: 15px;
+    margin-top: -1px;
+    position: absolute;
+    width: 100%;
+    z-index: 7;
+}
+.course-tab-title .course-this{
+    border: 1px solid #0072E5;
+    border-bottom-color: rgba(0,0,0,0);
+    color: #0072E5;
+    background: #F0F7FD;
+    border-radius: 4px 4px 0px 0px;
+}
+.course-tab-more{
+    z-index: 10;
+}
+.course-this-index li{
+    z-index: 20;
+}
+.course-tab-item{
+    display: none;
+}
+.course-tab-show{
+    display: block;
+}
+
+.user-hidden{
+    height: 70px;
+    overflow: hidden;
+    transition: all .5s;
+}
+.user-list{
+    text-align: center;
+    float: left;
+    margin-right: 18px;
+}
+.user-list-more{
+    margin-bottom: 20px;
+}
+.user-list .user-head{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-size: cover !important;
+    background-position: center !important;
+
+}
+.user-list .name{
+    color: #000000;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.find-more{
+    float: right;
+    position: relative;
+    top: 18px;
+}
+.pack-up, .more-list{
+    display: none;
+}
+
+.not-data{
+    padding: 100px;
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+}

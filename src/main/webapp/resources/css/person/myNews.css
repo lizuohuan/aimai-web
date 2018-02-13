@@ -1,0 +1,22 @@
+
+.newsList{
+    padding: 15px;
+}
+
+.news-item{
+    padding-bottom: 15px;
+}
+.news-title{
+    font-size: 16px;
+}
+.news-time{
+    float: right;
+    color: #999999;
+    font-size: 13px;
+}
+.news-context{
+    font-size: 13px;
+    line-height: 20px;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 15px 0;
+}

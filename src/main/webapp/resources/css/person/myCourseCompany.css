@@ -1,0 +1,339 @@
+
+.courseList{
+    padding: 15px;
+}
+.course-item{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    padding-left: 320px;
+    margin-bottom: 15px;
+}
+
+.course-item .course-cover{
+    height: 200px;
+    width: 320px;
+    position: absolute;
+    background-size: cover !important;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+.course-info{
+    padding-left: 15px;
+    height: 200px;
+    position: relative;
+}
+.course-info .col-xs-10{
+    height: 100%;
+}
+.course-title{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.course-label{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.year-label{
+    background: #0072E5;
+    color: #FFF;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.erect{
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #0072E5;
+    margin-right: 10px;
+}
+.type-label{
+    border: 1px solid #0072E5;
+    color: #0072E5;
+    margin-right: 10px;
+    padding: 3px 10px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.icon-study{
+    display: inline-block;
+    width: 19px;
+    height: 21px;
+    background: url("../../img/video.png");
+    position: relative;
+}
+.icon-add{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../img/time.png");
+    position: relative;
+}
+.icon-font{
+    font-size: 14px;
+    color: #999999;
+    position: relative;
+    top: -5px;
+}
+.time-div{
+    float: left;
+    width: 110px;
+    margin-bottom: 15px;
+}
+.price-bar{
+    padding: 10px 0;
+    text-align: center;
+}
+.course-price{
+    font-size: 18px;
+    color: red;
+    margin-bottom: 5px;
+}
+.course-num{
+    font-size: 12px;
+    color: #999999;
+}
+.course-price span{
+    font-size: 13px;
+}
+.status-bar{
+    margin-bottom: 10px;
+}
+.status-bar span{
+    padding: 3px 10px;
+    border: 1px solid #E1E1E1;
+    font-size: 12px;
+    color: #999999;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.button-bar{
+    position: absolute;
+    bottom: 10px;
+}
+.button-bar .min-blue-button{
+    font-size: 14px;
+}
+.button-bar .min-blue-button span{
+    margin-left: 10px;
+    font-size: 10px;
+}
+.min-blue-border-button{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.min-gray-button{
+    font-size: 14px;
+    cursor: default;
+}
+
+/*用户列表*/
+.select-user{
+    min-width: 900px;
+}
+.max-width{
+    max-width: 550px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.user-item{
+    padding-left: 60px;
+    position: relative;
+    width: 160px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+.user-item .head{
+    background-size: cover !important;
+    background-position: center !important;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #eee;
+}
+.user-item .name{
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.user-item .phone{
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 15px;
+}
+.user-item .status{
+    padding: 3px 10px;
+    background: #CCCCCC;
+    font-size: 12px;
+    color: #FFF;
+    border-radius: 4px;
+}
+.user-item .status-pass{
+    background: #2F74B5;
+}
+
+.row-context{
+    padding: 0;
+    max-height: 500px;
+}
+.sub-search-bar{
+    padding: 10px 15px;
+    background: #E6E6E6;
+    position: relative;
+}
+.search{
+    width: 100%;
+    border: 1px solid #E1E1E1;
+    background: #FFF;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 30px;
+}
+.icon-search{
+    position: absolute;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    z-index: 1;
+    background: url("../../img/search.png");
+    top: 20px;
+    left: 22px;
+}
+.row-context .col-xs-4{
+    border-right: 1px solid #E1E1E1;
+}
+.all-select{
+    padding: 10px 15px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.all-select label{
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
+
+.search-user-list{
+    padding: 10px 15px;
+    height: 400px;
+    overflow: auto;
+}
+.selected-user-list{
+    height: 500px;
+    overflow: auto;
+    border-right: 1px solid #E1E1E1;
+}
+.search-user-list label{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+.search-user-list .user-item, .selected-user-list .user-item{
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+.search-user-list .user-item .head, .selected-user-list .user-item .head{
+    width: 40px;
+    height: 40px;
+}
+.search-user-list .user-item .name, .selected-user-list .user-item .name{
+    padding-top: 5px;
+}
+.search-user-list input{
+    top: 7px;
+}
+
+.selected-user-list{
+    padding: 15px;
+}
+.allocation-user-list{
+    padding: 15px;
+}
+.allocation-user-list .user-item{
+    width: 200px;
+}
+.fa-close{
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #999999;
+}
+
+.modal-row{
+    clear: both;
+    position: relative;
+}
+.modal-row label{
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    top: 5px;
+}
+.modal-row .modal-item{
+    padding-left: 115px;
+}
+.modal-row .modal-item p{
+    margin-bottom: 20px;
+}
+.modal-row .modal-item p:last-child{
+    padding-bottom: 0px;
+}
+.hint-name{
+    padding: 8px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    color: #666;
+}
+
+.title{
+    padding: 15px;
+    font-size: 13px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.not-data{
+    padding: 50px;
+    color: #999999;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+/*自定义单选框、多选框*/
+.my-radio, .my-checkbox{
+    margin: 0 !important;
+    display: inline-block;
+    border: 0;
+    outline: 0!important;
+    background-color: transparent;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 24px;
+    color: #0072E5;
+    margin-right: 10px !important;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+.my-radio:before, .my-checkbox:before{
+    content: "\f1db";
+}
+.my-radio:checked:before, .my-checkbox:checked:before{
+    content: "\f058";
+    color: #0072E5;
+}

@@ -1,0 +1,434 @@
+.courseDetail .courseInfo .ctab{
+	margin: 0 0 15px 30px;
+}
+.courseDetail .courseBot{
+	padding:0;
+	width: 100%;
+	background: #fff;
+	margin-top: 15px;
+}
+.courseDetail .container-bg{
+	padding: 15px 0;
+	background: #F6F9FE;
+}
+.courseDetail .courseDetailBg{
+	padding-bottom: 15px;
+}
+.courseDetail .courseInfo .ctab>div{
+	width:125px;
+	margin-right:70px;
+}
+.courseDetail .ctabBox{padding: 15px;padding-top: 0}
+.courseDetail .mainName p{
+	background: url('../../img/video.png') no-repeat left center;
+}
+.courseDetail .courseFace{width: 600px;}
+.courseDetail .mainName .courseMoney{
+	position:static;
+	display:inline-block;
+	margin-top:30px;
+}
+.courseDetail .courseComment .user span{margin-left:18px;}
+.courseDetail .courseComment .user i{
+	width:60px;
+	height:60px;
+	background: #0072E5;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.courseDetail .userComment{
+	padding-left:78px;
+}
+.courseDetail .userComment p{
+	margin-top:5px;
+	padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.courseTag{
+	color:#0072E5;
+	margin:10px 0 20px;
+}
+.courseTag span,.courseTag i{
+	display: inline-block;
+}
+.courseTag span{
+	background: #0072E5;
+	color: #fff;
+	border-radius:3px;
+	padding:3px 8px;
+	margin-right:10px;
+}
+.courseTag i{
+	margin-left:10px;
+	border: 1px solid #0072E5;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+.courseTime{
+	display: inline-block;
+	margin-left: 25px;
+	/*background: url('../../img/time.png') no-repeat left center;*/
+}
+.courseTime img{
+	display: inline-block;
+	vertical-align: text-bottom;
+	margin-right:8px;	
+}
+.buyBtn{
+	display: inline-block;
+    background: #0072e5;
+    color: #fff;
+    font-size: 24px;
+    padding: 16px 60px;
+    border-radius: 5px;
+    margin-top: 90px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.buyBtn:hover{
+	background: #A49EF0;
+}
+.courseCollect{
+	position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    padding-top: 26px;
+    background: url(../../img/person/collect.png) no-repeat center top;
+}
+.courseCollect.act{
+	background: url('../../img/person/collect-active.png') no-repeat center top;
+	color:#0072E5;
+}
+.courseComment li{margin-bottom: 10px;}
+.courseDetail .mainName h4{padding-right:30px;}
+/* 查看课程  courseWatch.html */
+.courseWatch{
+	background: #000;
+	padding:30px 0;
+}
+.courseWatch .container>div{
+	float: left;
+	min-height:450px;	
+}
+.courseVideo{
+	width:800px;
+	background:#333;
+}
+.watchBox{
+	background: #fff;
+	width:390px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.courseVideo video,.courseVideo embed{
+	width:100%;
+}
+.watchList{
+	padding:0 10px;
+}
+.watchList .watchTime{
+	float:right;
+}
+.courseWatch .courseInfo{
+	width:auto;
+	padding-left:10px;
+}
+.watchList>p{
+	font-size: 18px;
+    color: #0072E5;
+    margin: 0 -10px 12px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.watchList>p:before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 1em;
+    background: #0072E5;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.watchList ul li{margin-bottom:8px;}
+.watchList ul li a{
+	overflow: hidden;
+	font-size: 14px;
+	display: block;
+	line-height:1.5em;
+}
+.watchList ul li a:hover{
+	color:#0072E5;
+}
+.courseWatch .mainName h4{margin-top: 15px;}
+.courseWatch .courseTag{margin-bottom: 40px;}
+.videoFace{
+    background-size: cover !important;
+	position: absolute;
+    z-index: 9;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.playBtn{
+	position: absolute;
+	width:60px;
+	height: 60px;
+	bottom: 20px;
+	right:20px;
+	z-index: 10;
+	cursor: pointer;
+	background: url('../../img/play.png') no-repeat center;
+}
+/* 课程筛选页面 courseIndex.html */
+.topSellect{
+	border: 1px solid #dee8f1;
+}
+.topSellect .category{
+	background: #ecf5fc;
+}
+.topSellect>div{
+	font-size:14px;
+	padding: 15px 20px;
+	background: #fff;
+}
+.topSellect .sValue{
+	width:1080px;
+}
+.topSellect .sKey,.topSellect .sValue{
+	float: left;
+}
+.topSellect .sKey{
+	display: inline-block;
+	margin-right:30px;
+    margin-top: 7px;
+}
+.sValue li{
+	float:left;
+	margin-right:25px;
+}
+.industry .sValue li{
+    line-height: 2em;
+}
+.category .sValue li a{
+	display: inline-block;
+	padding:6px 16px;
+	color: #333534;
+	border: 1px solid #7d7d7d;
+	border-radius:5px;
+}
+.category .sValue li.act a{
+	border-color: #0072E5;
+	color: #0072E5;
+}
+.industry .sValue li:hover a{
+	color: #0072E5;
+}
+.courseIndex.courseList>.container{
+	margin-top: 20px;
+}
+.courseIndex.courseList .mainName .courseMoney{
+	position: static;
+}
+.buyNow{
+	position:absolute;
+	right: 0;
+    top: -2px;
+}
+.buyNow .buyBtn{
+	font-size: 20px;
+	padding: 10px 22px;
+	margin:0 0 0 10px ;
+}
+.buyNow .buyBtn:active,.buyNow .buyBtn:focus{
+	color: #FFF;
+}
+.buyNow .buyBtn:hover{
+	color: #FFF;
+}
+.courseIndex .mainName h4{
+	padding-right: 230px;
+}
+.tradeType a{
+	padding: 6px 15px;
+	border-radius: 5px;
+}
+.tradeType .act a:hover{
+	color: #FFF !important;
+}
+.tradeType li{
+	margin-right: 5px;
+}
+.tradeType .act a{
+	background: #0072E5;
+	color: #FFF;
+}
+
+.courseMenu img{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+/*支付方式*/
+.text-align-center{
+	text-align: center;
+}
+.wechat-icon{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	background: url("../../img/pay/wechat.png");
+	cursor: pointer;
+}
+.alipay-icon{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	background: url("../../img/pay/alipay.png");
+	cursor: pointer;
+}
+.payment-font{
+	font-size: 14px;
+	padding-top: 15px;
+}
+#payModal .modal-context{
+	padding: 50px 0;
+}
+.qrcode{
+	margin: 0 auto;
+}
+.qrcode img{
+	margin: 0 auto;
+}
+.qrcode-hint{
+	font-size: 12px;
+	color: #000000;
+	display: none;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*评论栏*/
+.layui-tab{
+	background: #FFF;
+	min-height: 400px;
+}
+.layui-tab .layui-tab-title{
+	height: 80px;
+	padding-left: 30px;
+}
+.layui-tab .layui-tab-title li{
+	line-height: 80px;
+	margin-right: 30px;
+}
+.layui-tab-title .layui-this:after{
+	height: 81px;
+	border-color: #0072E5 !important;
+}
+.layui-tab .layui-tab-title li i{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background-position:right center;
+	background-repeat:no-repeat;
+	margin-right:10px;
+	vertical-align:middle;
+	transition: .4s;
+}
+.layui-tab-title .layui-this i{
+	background-position:left center !important;
+}
+.layui-tab-content{
+	padding: 0;
+}
+.layui-tab-content .layui-tab-item{
+	padding: 30px;
+	min-height: 400px;
+}
+.not-padding{
+	padding: 0 !important;
+}
+.courseComment{
+	/*min-height: 400px;*/
+}
+.courseMenu li a{
+	font-size: 14px;
+}
+/*发布评论*/
+.comment-bar{
+	background: #F3F3F4;
+	padding: 15px;
+	z-index:9;
+	width: 100%;
+}
+.comment-bar .user-avatar{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-size: cover !important;
+	background-position: center !important;
+	float: left;
+}
+.comment-bar input {
+	height: 50px;
+	padding-left: 10px;
+	font-size: 12px;
+	color: #666666;
+	margin: 0;
+	width: 80%;
+	margin-left: 10px;
+}
+.comment-bar button {
+	height: 50px;
+	float: right;
+	margin: 0 10px;
+	background: #D0D0D0;
+	color: #FFF;
+	width: 10%;
+}
+
+.yellow-button{
+	background: #F7C03E;
+	border-color: #F7C03E;
+}
+
+.yellow-button:active,
+.yellow-button:focus .yellow-button:hover {
+	background: #F7C03E !important;
+	border-color: #F7C03E !important;
+}
+
+.not-study{
+	color: #999999;
+	cursor: not-allowed;
+}
+.not-study:hover{
+	color: #999999 !important;
+	cursor: not-allowed;
+}
+
+.number-context{
+	text-align: center;
+	padding-bottom: 15px;
+	position: relative;
+}
+.number{
+	width: 200px;
+	margin: 0 5px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #E1E1E1;
+	border-radius: 6px;
+	font-size: 12px;
+	text-align: center;
+	color: #000000;
+}
+.number-btn{
+	width: 40px;
+	height:40px;
+	position: relative;
+	top: 15px;
+}

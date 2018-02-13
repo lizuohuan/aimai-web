@@ -1,0 +1,223 @@
+
+/**视频容器*/
+.video-wrap{
+	background: #14191E;
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+.video-wrap .video{
+	width: 100%;
+	height: 100%;
+}
+
+/**进度条*/
+.video-progress-bar{
+	position: relative;
+	top: 14px;
+}
+/*滑条*/
+.video-progress-bar .range{
+	position: relative;
+	width: 100%;
+	height: 4px;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	cursor: pointer;
+}
+/*缓冲进度*/
+.video-progress-bar .buffer-progress{
+	position: absolute;
+	width: 0%;
+	height: 4px;
+	background: #2e75b6;
+	border-radius: 5px;
+}
+/*已播放进度*/
+.video-progress-bar .cash-progress{
+	position: absolute;
+	width: 0%;
+	height: 4px;
+	background: #2e75b6;
+	border-radius: 10px;
+}
+/*滑动物*/
+.video-progress-bar .glider{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #FFF;
+	top: -6px;
+}
+
+/**控制栏*/
+.video-control-bar{
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	background: #000;
+	padding: 0 15px;
+	box-sizing: border-box;
+	/*background:-moz-linear-gradient(top,#600030,#000000);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#600030), to(#000000));*/
+	background: rgba(0, 0, 0, 0);
+}
+.video-control-bar .start-or-end-btn{
+	position: relative;
+	top: 2px;
+	width: 14px;
+	margin-right: 5px;
+}
+.video-control-bar .video-time{
+	color: #E0E0E0;
+	font-size: 12px;
+}
+.video-control-bar .full-screen {
+	position: relative;
+	top: 2px;
+	width: 14px;
+	margin-left: 5px;
+}
+
+.progress-out{
+	padding: 0 70px;
+	padding-right: 40px;
+}
+.theLeft{
+	width: 70px;
+	position: absolute;
+	left: 15px;
+	top: 0;
+}
+.theRight{
+	width: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/*视频遮罩*/
+.video-wrap .video-shade{
+	background: rgba(0, 0, 0, 1);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	z-index:1;
+	/*background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-filter: blur(15px);
+	-moz-filter: blur(15px);
+	-o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);*/
+}
+.video-shade .video-cover{
+	width: 100%;
+	height: 100%;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+.video-shade .video-loading{
+	width: 60px;
+	position: absolute;
+	z-index: 2;
+	right: 30px;
+	bottom: 30px;
+	transition: opacity .3s ease;
+	cursor: pointer;
+}
+
+
+
+/*人脸提示窗*/
+.face-shade{
+	display: none;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 998;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	opacity: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.face-shade-bg{
+	display: none;
+	position: fixed;
+	z-index: 999;
+	border-radius: 6px;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-os-transform: translate(-50%, -50%);
+	text-align: center;
+	background: #FFF;
+	padding: 15px;
+	width: 300px;
+}
+.face-shade-title{
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	padding: 15px 0;
+}
+.face-shade-hint{
+	font-size: 14px;
+	color: #000000;
+	text-align: center;
+}
+.face-shade-btn{
+	padding: 15px;
+}
+
+.face-shade-btn button{
+	width: 100px;
+}
+
+
+.return-btn {
+	padding: 10px;
+	border-radius: 6px;
+	color: #FFF;
+	border-color: #0072E5;
+	box-shadow: 0px 2px 6px 0px #0072E5;
+	background: #0072E5;
+	width: 120px;
+	text-align: center;
+}
+.return-btn:active,
+.return-btn:focus {
+	background: #0072E5 !important;
+	border-color: #0072E5 !important;
+}
+
+.yellow-btn{
+	padding: 10px;
+	border-radius: 6px;
+	color: #FFF;
+	border-color: #F7C03E;
+	box-shadow: 0px 2px 6px 0px #F7C03E;
+	background: #F7C03E;
+	width: 120px;
+	text-align: center;
+}
+.yellow-btn:active,
+.yellow-btn:focus {
+	background: #F7C03E !important;
+	border-color: #F7C03E !important;
+}

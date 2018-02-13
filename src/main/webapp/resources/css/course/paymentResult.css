@@ -1,0 +1,45 @@
+body,html{
+	background: #F6F9FE;
+}
+.result-bar{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.result-icon-succeed{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: url("../../img/pay/payment_succeed.png");
+}
+
+.result-icon-error{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: url("../../img/pay/payment_error.png");
+}
+.result-title{
+	margin-top: 20px;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.result-hint{
+	font-size: 12px;
+	color: #999999;
+}
+.result-btn-bar{
+	padding-top: 50px;
+}
+.result-btn-bar .min-blue-button, .result-btn-bar .min-gray-button{
+	font-size: 16px;
+	padding: 15px 30px;
+}
+.result-btn-bar .min-blue-button{
+	margin-right: 20px;
+}
+.result-btn-bar .min-gray-button {
+	background: #666666;
+	border-color: #666666;
+}
